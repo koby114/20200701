@@ -1,0 +1,13 @@
+body {
+  overflow: hidden;
+  /*内容がボックスに収まらない場合、収まらない部分は非表示となる。内容が収まらない場合にも、スクロールバーなどは表示されない*/
+}
+
+canvas {
+  background-image: url("https://www.jalan.net/news/img/2020/06/fcc0532fb6f5e56c060de0bb447bb3de.jpg");
+  background-position: center bottom; /* 画像の表示位置を指定 */
+  background-size: cover; /* 画像のサイズを指定  */
+  width: 400px; /* 横幅のサイズを指定  */
+  height: 400px;
+  /* background-color:#000000; */
+}
